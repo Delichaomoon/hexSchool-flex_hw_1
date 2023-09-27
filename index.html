@@ -20,7 +20,9 @@
 				</li>
 			</ul>
 			<menu>
-				<img src="./images/logo.png" alt="logo">
+				<a href="index.html">
+					<img src="./images/logo.png" alt="logo">
+				</a>
 				<ul>
 					<li><a href="#">首頁</a></li>
 					<li><a href="#">產品介紹</a></li>
@@ -112,16 +114,18 @@
 			<p>對我們的課程有興趣嗎?</p>
 			<p>歡迎留下您的資料</p>
 			<div class="container data-img">
-				<div class="bg-white"></div>
+				<label for="msn">想跟我們說什麼嗎 ?
+					<textarea name="msn" id="msn" cols="60" rows="12" style="resize:none"></textarea>
+				</label>
 				<form action="" class="data-form">
 					<label for="name">姓名
-						<input type="text" value="六角講師">
+						<input type="text" value="六角講師" id="name">
 					</label>
 					<label for="tel">電話
-						<input type="tel" value="0912345678">
+						<input type="tel" value="0912345678" id="tel">
 					</label>
 					<label for="mail">信箱
-						<input type="mail" value="hexschool@mail.com">
+						<input type="mail" value="hexschool@mail.com" id="mail">
 					</label>
 					<button class="btn" type="buuton">送出</button>
 				</form>
