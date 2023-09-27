@@ -101,6 +101,15 @@ menu {
 	align-items: center;
 	padding: 8px 22px 8px 22px;
 }
+.logo {
+	background-image: url(../images/logo.png);
+	width: 224px;
+	height: 50px;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 menu ul {
 	display: flex;
 	align-items: center;
@@ -134,7 +143,7 @@ menu a {
 	width: 100%;
 	background: rgba(0,0,0,30%)
 }
-.banner-txt h1 {
+.banner-txt h2 {
 	padding: 40px 22px;
 	font-size: 36px;
 	color: #fff;
